@@ -26,9 +26,10 @@ typedef enum {
 } PageType;
 
 @protocol SetupViews <NSObject>
-+(void)setupViews;
-+(void)setupFrames:(PhoneType)phoneType;
-+(void)animationFrame:(PhoneType)phoneType;
+@required
+-(void)setupViews;
+-(void)setupFrames:(PhoneType)phoneType;
+-(void)animationFrame:(PhoneType)phoneType;
 @end
 
 

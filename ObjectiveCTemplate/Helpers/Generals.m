@@ -47,7 +47,7 @@
         [GeneralClass seguePage:tstViewController currentWindow:window];
     }
 }
-+(void) seguePage:(UIViewController*)targerController currentWindow:(UIWindow*)window{
+-(void) seguePage:(UIViewController*)targerController currentWindow:(UIWindow*)window{
     
     [UIView transitionWithView:window duration:0.70 options:UIViewAnimationOptionTransitionFlipFromTop animations:^{
         UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:targerController];
