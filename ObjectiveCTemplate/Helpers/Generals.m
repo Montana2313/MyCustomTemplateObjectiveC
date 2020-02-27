@@ -44,15 +44,15 @@
     if(pageType == Anasayfa){
         // deneme
         TestViewController *tstViewController = [[TestViewController alloc] init];
-        [GeneralClass seguePage:tstViewController currentWindow:window];
+        [self seguePage:tstViewController currentWindow:window];
     }
 }
--(void) seguePage:(UIViewController*)targerController currentWindow:(UIWindow*)window{
++(void) seguePage:(UIViewController*)targerController currentWindow:(UIWindow*)window{
     
     [UIView transitionWithView:window duration:0.70 options:UIViewAnimationOptionTransitionFlipFromTop animations:^{
         UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:targerController];
         navController.navigationBarHidden = YES;
-        window.rootViewController = navController;
+        window.rootViewController = targerController;
         [window makeKeyAndVisible];
     } completion:nil];
 }

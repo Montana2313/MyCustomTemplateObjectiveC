@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04411DDA2407E39E007D1DAF /* CustomItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 04411DD92407E39E007D1DAF /* CustomItems.m */; };
 		0456B93224070304007E3025 /* DefaultItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456B93124070303007E3025 /* DefaultItems.m */; };
 		0473647523FDAD5F007B4A40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473647423FDAD5F007B4A40 /* AppDelegate.m */; };
 		0473647823FDAD5F007B4A40 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473647723FDAD5F007B4A40 /* SceneDelegate.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04411DD92407E39E007D1DAF /* CustomItems.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomItems.m; sourceTree = "<group>"; };
+		04411DDB2407E3B5007D1DAF /* CustomItems.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomItems.h; sourceTree = "<group>"; };
 		0456B93124070303007E3025 /* DefaultItems.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultItems.m; sourceTree = "<group>"; };
 		0456B93324070316007E3025 /* DefaultItems.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultItems.h; sourceTree = "<group>"; };
 		0473647023FDAD5F007B4A40 /* ObjectiveCTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveCTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +98,8 @@
 		0473648D23FDAE80007B4A40 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				04411DDB2407E3B5007D1DAF /* CustomItems.h */,
+				04411DD92407E39E007D1DAF /* CustomItems.m */,
 				0456B93324070316007E3025 /* DefaultItems.h */,
 				0456B93124070303007E3025 /* DefaultItems.m */,
 				0473649123FDAEC2007B4A40 /* Generals.m */,
@@ -202,6 +207,7 @@
 				0473647B23FDAD5F007B4A40 /* ViewController.m in Sources */,
 				0473647523FDAD5F007B4A40 /* AppDelegate.m in Sources */,
 				0473648623FDAD60007B4A40 /* main.m in Sources */,
+				04411DDA2407E39E007D1DAF /* CustomItems.m in Sources */,
 				0473647823FDAD5F007B4A40 /* SceneDelegate.m in Sources */,
 				0456B93224070304007E3025 /* DefaultItems.m in Sources */,
 			);

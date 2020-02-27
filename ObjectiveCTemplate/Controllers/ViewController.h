@@ -22,6 +22,7 @@
 
 
 @property(nonatomic , retain) UIButton *denemeButton;
+@property(nonatomic,retain) UITextField *denemeTextField;
 
 @end
 
